@@ -1,0 +1,16 @@
+:
+
+👉 "In a MERN application, suppose you have to design an API that fetches user details
+ along with their recent transactions (stored in two different MongoDB collections). 
+How would you design the endpoint, what query/aggregation would you use, and how would
+ you ensure performance and scalability?"
+
+
+
+slon : -->
+
+ User.js
+
+Transactions.js
+
+
