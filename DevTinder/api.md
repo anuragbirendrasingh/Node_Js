@@ -10,7 +10,7 @@ patch - /password - editPassword
 
 ## connection request router
 post - /request/send/interseted/:userId
-post - /request/send/not-intersted/:userId
+<!-- post - /request/send/not-intersted/:userId -->
 post - /request/review/accepted/:userId
 post -/request/review/accepted/:userId
 

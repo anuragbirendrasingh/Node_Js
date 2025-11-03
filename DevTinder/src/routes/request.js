@@ -37,7 +37,8 @@ requestRouter.post(
           .status(400)
           .json({ message: " the request status is invalid" + status });
       }
-
+  
+      // if there is an existing connection request
       const existingConnectionRequest = await connectionRequests.findOne({
         $or: [
           { fromUserId, toUserId },
@@ -81,4 +82,4 @@ requestRouter.delete("/delete-my-account", userAuth, async (req, res) => {
   }
 });
 
-module.exports = requestRouter;
+module.exports = requestRouter; 

@@ -40,13 +40,13 @@ app.listen(8000, () => {
 // const app = express();
 // app.use(express.json());
 
-// // Connect DB
+// Connect DB
 // mongoose.connect("mongodb://localhost:27017/mern", {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
 
-// // Fetch transactions by userId
+// Fetch transactions by userId
 // app.get("/api/users/:id/transactions", async (req, res) => {
 //   try {
 //     const userId = req.params.id;
